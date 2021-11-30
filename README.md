@@ -24,11 +24,11 @@
 ## Инструкия по сборке
 
 ## Функции
-1. unsigned int RSHash(const std::string& str) - реализация хеш-функции 1
-2. unsigned int JSHash(const std::string& str) - реализация хеш-функции 2
-3. std::string removeOddIndexCharacters(std::string soooo) - удаление четных символов
-4. std::string hashery(std::string hashing) - реализация хеш-функции 3
-5. std::string log_pass_trick(std::string llpp, std::string p) - все преобразования над логином и паролем, нужные для сравнения с итоговым паролем
+1. unsigned int RSHash(const std::string& str) - реализация хеш-функции 1. Принимает на вход строку.
+2. unsigned int JSHash(const std::string& str) - реализация хеш-функции 2. Принимает на вход строку.
+3. std::string removeOddIndexCharacters(std::string soooo) - удаление четных символов. Принимает на вход строку.
+4. std::string hashery(std::string hashing) - реализация хеш-функции 3. Принимает на вход строку.
+5. std::string log_pass_trick(std::string llpp, std::string p) - все преобразования над логином и паролем, нужные для сравнения с итоговым паролем. Принимает на вход две строки.
 
 ## Пример работы
 - Вводим неправильные данные:![image](https://user-images.githubusercontent.com/55959207/143964313-df8a80ac-0b6a-42c0-9c98-a3d390434df3.png)
